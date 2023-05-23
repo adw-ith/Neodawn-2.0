@@ -1106,13 +1106,33 @@ h6 {
   margin-bottom: 30px;
 }
 
+#supporters a{
+  color: #fff;
+  border-radius: 50px;
+  background: #f82249;
+  padding: 0.5rem;
+  min-width: 10rem;
+}
+
+#supporters a:hover{
+  background: #ff0936;
+}
+
+#supporters .supporters-wrap > * {
+  display: flex;
+  justify-content: center;
+}
+
 #supporters .supporter-logo {
   padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  aspect-ratio: 1;
+  min-height: 300px;
   border-right: 1px solid #e0e5fa;
   border-bottom: 1px solid #e0e5fa;
+  margin-bottom: 2rem;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 160px;
@@ -1125,7 +1145,6 @@ h6 {
 #supporters img {
   transition: all 0.4s ease-in-out;
 }
-
 /*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
