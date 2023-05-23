@@ -14,7 +14,7 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+      href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
     />
 
@@ -44,8 +44,10 @@
       <div class="container-fluid container-xxl d-flex align-items-center">
         <div id="logo" class="me-auto">
           <a href="index.html" class="scrollto"
-            ><img src="assets/img/logos/logoneo.png" alt="" title="" />
-            <h1></h1>
+            ><div class="title d-flex">
+              <img src="assets/img/logos/logoneo.png" alt="" title="" />
+              <h1>&nbspNEO<span>DAWN</span></h1>
+            </div>
           </a>
         </div>
 
@@ -53,17 +55,15 @@
           <ul>
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#supporters">Organizers</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
+
+            <!-- <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
             <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
             <li><a class="nav-link scrollto" href="#venue">Venue</a></li>
             <li><a class="nav-link scrollto" href="#hotels">Hotels</a></li>
-            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li> -->
 
             <li class="dropdown">
-              <a href="#"
+              <a class="nav-link scrollto" href="#tracks"
                 ><span>Events</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul>
@@ -84,6 +84,13 @@
                 <li><a href="#">FUTURE MUSEUM</a></li>
               </ul>
             </li>
+            <li>
+              <a class="nav-link scrollto" href="#supporters">Organizers</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#">Partner with us</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#">Be a speaker</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -97,7 +104,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
       <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-        <h1 class="mb-4 pb-0"><span>NEODAWN</span><br />CONCLAVE</h1>
+        <h1 class="mb-4 pb-0">NEO<span>DAWN</span><br />CONCLAVE</h1>
         <p class="mb-4 pb-0">
           IEEE International Conclave on Emerging Technologies and its
           Application
@@ -138,7 +145,7 @@
 
       <!-- ======= Track Section ======= -->
       <section id="speakers">
-        <div class="container" data-aos="fade-up">
+        <div id="tracks" class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Tracks</h2>
             <p>Our Tracks</p>
@@ -561,7 +568,7 @@
             <div class="col-lg-3 col-md-6 footer-info">
               <div class="title d-flex">
                 <img src="assets/img/logos/logoneo.png" alt="NEODAWN" />
-                <h2>NEODAWN<br />CONCLAVE</h2>
+                <h2>NEO<span>DAWN</span><br />CONCLAVE</h2>
               </div>
               <p>
                 In alias aperiam. Placeat tempore facere. Officiis voluptate
@@ -645,18 +652,8 @@
       </div>
 
       <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-      -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+        <div class="copyright"></div>
+        <div class="credits"></div>
       </div>
     </footer>
     <!-- End  Footer -->
