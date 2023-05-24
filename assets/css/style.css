@@ -88,6 +88,10 @@ h6 {
 
 /* Sections Header
 --------------------------------*/
+header{
+  padding: 12px;
+}
+
 .section-header {
   margin-bottom: 60px;
   position: relative;
