@@ -1700,3 +1700,54 @@ h6 {
   }
 }
 
+
+#workshop1{
+  padding-top: 60px;
+}
+
+#workshop1 .details{
+  padding: 1rem;
+}
+
+#workshop1 .w-title{
+  text-align: center;
+}
+
+#workshop1 .row{
+  align-items: center;
+  justify-content: center;
+}
+
+#workshop1 .col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#workshop1 .marg{
+  margin-top: 5rem;
+}
+
+#workshop1 .track{
+  text-align: center;
+  padding: 1.5rem 0rem 0.5rem;
+  margin: 1rem;
+  background: linear-gradient(#55174f,#d73863);
+  border-radius: 20px;
+}
+
+#workshop1 .track h3{
+  color: #fff;
+}
+
+#workshop1 .track-details{
+  background: #1123631d;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.disp{
+  display: none;
+}
