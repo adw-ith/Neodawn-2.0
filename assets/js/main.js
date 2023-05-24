@@ -61,53 +61,6 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
-
-  const t1 = document.getElementById("t1");
-  const t2 = document.getElementById("t2");
-  const t3 = document.getElementById("t3");
-  const h1 = document.getElementById("h1");
-  const h2 = document.getElementById("h2");
-  const h3 = document.getElementById("h3");
-
-  t1.addEventListener("click", () => {
-    if (h1.classList.contains("disp")){
-        h1.classList.remove("disp");
-        h2.classList.add("disp");
-        h3.classList.add("disp");
-    }
-    else{
-        h1.classList.add("disp");
-    }
-
-})
-
-t2.addEventListener("click", () => {
-    if (h2.classList.contains("disp")){
-        h2.classList.remove("disp");
-        h1.classList.add("disp");
-        h3.classList.add("disp");
-    }
-    else{
-        h2.classList.add("disp");
-    }
-})
-
-t3.addEventListener("click", () => {   
-    if (h3.classList.contains("disp")){
-        h3.classList.remove("disp");
-        h1.classList.add("disp");
-        h2.classList.add("disp");
-    }
-    else{
-        h3.classList.add("disp");
-    }
-})
-
-
-
-
-
-
   /**
    * Scrolls to an element with header offset
    */
