@@ -950,6 +950,13 @@ h6 {
   margin-bottom: 3px;
 }
 
+#venue hr{
+  border: 0;
+  height: 5px;
+  max-width: 100px;
+  background: #ff0000;
+}
+
 #venue .venue-map iframe {
   width: 100%;
   height: 100%;
@@ -966,13 +973,25 @@ h6 {
 
 #venue .venue-info:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: #55174fc1;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
 }
+
+#venue .btn{
+  color: white;
+  margin-top: 2rem;
+  background: #f96151;
+  padding: 1rem 2rem;
+}
+
+#venue .btn:hover{
+  background: #ff0936;
+}
+
 
 #venue .venue-info h3 {
   font-size: 36px;
@@ -1881,4 +1900,8 @@ h6 {
 
 .pdown{
   padding-bottom: 1rem;
+}
+
+.marg-1{
+  margin-bottom: 2rem;
 }
