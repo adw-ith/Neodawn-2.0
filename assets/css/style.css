@@ -1717,12 +1717,22 @@ header{
   .speaker2{
     flex-direction: column-reverse;
   }
+  .flex-col{
+    flex-direction: column;
+  }
+  #future .section-header{
+    margin-bottom: -30px;
+  }
   .title h1{
     visibility: hidden;
   }
 }
 
-
+@media (min-width:1024px){
+  #future .section-header{
+    margin-right: 37.5px;
+  }
+}
 #workshop1{
   padding: 60px 0px;
 }
